@@ -1,0 +1,143 @@
+  /* Custom styles for the landing page */
+  #home {
+      background: url('https://images.unsplash.com/photo-1636955816868-fcb881e57954?auto=format&fit=crop&w=1440') center center;
+      display: flex;
+      height: 70vh;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+  }
+
+  #home p {
+      max-width: 1200px;
+      margin: 20px auto;
+      color: rgb(84, 41, 41);
+  }
+
+  section {
+      margin-bottom: 80px;
+  }
+
+  #ecommerce-development {
+      max-width: 1300px;
+  }
+
+  /* Custom styles for the landing page */
+  .landing-section {
+      padding: 80px 0;
+  }
+
+  .content-container {
+      display: flex;
+      flex-direction: column-reverse;
+  }
+
+  .content-text {
+      padding: 20px;
+  }
+
+  .content-image img {
+      width: 100%;
+      height: auto;
+  }
+
+  .sub-content {
+      font-size: 20px;
+      font-weight: #4d4d4d;
+      color: black;
+  }
+
+  #we-build-section {
+      background: rgb(231, 237, 240);
+      height: 90vh;
+  }
+
+  .who-title {
+      color: rgb(75, 129, 150);
+  }
+
+  .build-sub-title {
+      color: rgb(48, 63, 78);
+  }
+
+  .we-summary {
+      font-size: 20px;
+  }
+
+  @media (min-width:900px) {
+      .need-help {
+          margin-top: 120px !important;
+      }
+
+      .need-help-container {
+          max-width: 500px;
+      }
+  }
+
+
+  .card:hover {
+      transform: scale(1.05);
+  }
+
+  .card-img {
+      max-height: 400px;
+
+  }
+
+  .card-body {
+      padding: 20px;
+  }
+
+  .card {
+      height: 100%;
+      /* Set a fixed height for all cards */
+  }
+
+  .card-img {
+      object-fit: contain;
+      height: 200px;
+      margin-top: 20px;
+  }
+
+  .card-body {
+      height: 100%;
+
+      display: flex;
+      flex-direction: column;
+  }
+
+  .java-img {
+      min-height: 200px;
+  }
+
+  .unlock-container {
+      max-width: 650px;
+  }
+
+  #colabrate-section {
+      background: rgb(235, 234, 223);
+  }
+
+  .colabrate-img {
+      border-radius: 60px;
+  }
+
+  #unlock-potentional {
+      background: rgb(156, 133, 133)
+  }
+
+  #colabrate-section,
+  #footer-section {
+      margin-bottom: 0px;
+  }
+
+  .list-unstyled li a {
+      text-decoration: none;
+
+  }
+
+  #footer-section {
+      background: rgb(235, 234, 223);
+  }

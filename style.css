@@ -141,3 +141,9 @@
   #footer-section {
       background: rgb(235, 234, 223);
   }
+
+  @media (max-width:768px){
+    .gif-img{
+        width: 100%;
+    }
+  }
